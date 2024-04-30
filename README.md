@@ -1,7 +1,7 @@
 # LP<sup>2</sup>: Language-based Probabilistic Long-term Prediction
 This repository will contain the code LP<sup>2</sup>, our approach for Long-term Human Trajectory Prediction using 3D Dynamic Scene Graphs.
 
-> This project was supported by Amazon, Lockheed Martin, and the Swiss National Science Foundation (SNSF) grant No. 214489.
+> This project was supported by Amazon, Lockheed Martin, and the Swiss National Science Foundation (SNSF).
 
 # Table of Contents
 **Credits**
@@ -20,23 +20,20 @@ This repository will contain the code LP<sup>2</sup>, our approach for Long-term
 # Paper
 If you find this useful for your research, please consider citing our paper:
 
-TODO: Update these
-
-* Lukas Schmid, Marcus Abate, Yun Chang, and Luca Carlone, "**Khronos: A Unified Approach for Spatio-Temporal Metric-Semantic SLAM in Dynamic Environments**", in *ArXiv Preprint*, 2024. [ [ArXiv](https://arxiv.org/abs/2402.13817) | [Video](https://www.youtube.com/watch?v=YsH6YIL5_kc) ]
+* Nicolas Gorlo, Lukas Schmid, and Luca Carlone, "**Long-Term Human Trajectory Prediction using 3D Dynamic Scene Graphs**", in *ArXiv Preprint*, 2024.
   ```bibtex
-   @misc{Schmid2024Khronos,
-      title={Khronos: A Unified Approach for Spatio-Temporal Metric-Semantic SLAM in Dynamic Environments}, 
-      author={Lukas Schmid and Marcus Abate and Yun Chang and Luca Carlone},
+   @misc{Gorlo2024LP2,
+      title={Long-Term Human Trajectory Prediction using 3D Dynamic Scene Graphs}, 
+      author={Nicolas Gorlo, Lukas Schmid, and Luca Carlone},
       year={2024},
-      eprint={2402.13817},
+      eprint={},
       archivePrefix={arXiv},
       primaryClass={cs.RO}
    }
   ```
 
 # Video
-TODO: Update these
 
-An overview of Khronos is available on [YouTube](https://www.youtube.com/watch?v=YsH6YIL5_kc):
+An overview of our approach will be available on YouTube shortly.
 
-[<img src=https://github.com/MIT-SPARK/Khronos/assets/36043993/279fe8e8-60d9-44ee-af34-1947d4a1aeb0 alt="Khronos Youtube Video">](https://www.youtube.com/watch?v=YsH6YIL5_kc)
+
