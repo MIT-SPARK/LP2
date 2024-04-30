@@ -12,10 +12,10 @@ This repository will contain the code LP<sup>2</sup>, our approach for Long-term
 >
 > **Setup**
 > * Installation
-> * Datasets
+> * Dataset
 >
 > **Examples**
-> - Running LP2
+> - Running LP<sup>2</sup>
 
 # Paper
 If you find this useful for your research, please consider citing our paper:
