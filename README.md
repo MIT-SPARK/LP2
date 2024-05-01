@@ -1,3 +1,5 @@
+![Alt text](assets/title_figure.drawio.png?raw=true "Our method, LP^2, predicts a spatio-temporal distribution over long-term (up to 60 s) human trajectories in complex environments by reasoning about their interactions with the scene, represented as a 3D Dynamic Scene Graph.")
+
 # LP<sup>2</sup>: Language-based Probabilistic Long-term Prediction
 This repository will contain the code LP<sup>2</sup>, our approach for Long-term Human Trajectory Prediction using 3D Dynamic Scene Graphs.
 
@@ -6,7 +8,7 @@ This repository will contain the code LP<sup>2</sup>, our approach for Long-term
 # Table of Contents
 **Credits**
 * [Paper](#Paper)
-* [Video](#Video)   
+* [Video](#Video)
 
 > **__Note__** The code will be released here shortly.
 >
