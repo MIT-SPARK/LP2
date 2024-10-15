@@ -1,0 +1,15 @@
+numpy
+networkx == 3.1
+spark-dsg @ git+https://github.com/MIT-SPARK/Spark-DSG.git@bf44ced
+python-dotenv
+mergedeep
+pandas
+pyyaml
+scipy
+matplotlib
+plotly
+scikit-learn
+tqdm
+openai
+gdown
+click

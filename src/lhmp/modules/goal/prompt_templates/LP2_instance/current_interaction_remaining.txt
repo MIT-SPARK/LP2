@@ -1,0 +1,11 @@
+A human just interacted with the following objects for the provided time in seconds:
+</previous_interactions_string>.
+So far, the last interaction with </last_interaction_sem> lasted for </last_interaction_duration> seconds.
+In seconds, predict, how much longer the human will interact with the </last_interaction_sem>. 
+Base your prediction on average interaction times with a </last_interaction_sem> and the context of the previous interactions.
+You can assume that the interaction will not last more than 60s in total.
+Output in JSON format with the following structure:
+{
+    "reasoning": '''insert reasoning here''',
+    "duration": '''X.X'''
+}

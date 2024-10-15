@@ -1,0 +1,16 @@
+data:
+  scene_graph_path: data/office/office_scene_graph.json
+  room_labels_path: data/office/office_room_labels.json
+  trajectory_dir: data/office/trajectories
+  occupancy_map: data/office/occupancy_map/oracle.png
+  homography: data/office/occupancy_map/office_H.txt
+
+animation:
+  bg_cfg: data/office/animation/office_config.yaml
+  visualize_bg: True
+
+global:
+  scene: office
+
+  environment_bounds: [[-20.0, 5.0], [38.0, 56]]
+  bandwidth: 0.8

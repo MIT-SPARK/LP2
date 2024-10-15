@@ -1,0 +1,16 @@
+data:
+  scene_graph_path: data/home/home_scene_graph.json
+  room_labels_path: data/home/home_room_labels.json
+  trajectory_dir: data/home/trajectories
+  occupancy_map: data/home/occupancy_map/oracle.png
+  homography: data/home/occupancy_map/home_H.txt
+
+animation:
+  bg_cfg: data/home/animation/home_config.yaml
+  visualize_bg: True
+
+global:
+  scene: home
+
+  environment_bounds: [[-18, -15, -1], [5, 9, 7]]
+  bandwidth: 0.6

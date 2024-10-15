@@ -1,0 +1,3 @@
+This is a description of an indoor environment. Your task is to predict future interaction of a human with this environment.
+The following objects are in the environment:
+</room_objects_str>

@@ -1,0 +1,5 @@
+This is a description of an indoor environment. Your task is to predict future interaction of a human with this environment.
+In the environment there are the following rooms: </room_string>
+</room_to_room_edges>
+The following objects are in the environment:
+</objects_in_room_string>

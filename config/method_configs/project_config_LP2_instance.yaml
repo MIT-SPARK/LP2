@@ -1,0 +1,40 @@
+global:
+  method: LP2_instance
+
+  evaluate_interaction_prediction: true
+
+  verbose: true
+  visualization: false
+  save_trajectories: false
+  use_precomputed_interactions: false
+  use_precomputed_kdes: false
+  animate: false
+  discrete_animation: false
+
+goal_module:
+  class: lhmp.modules.goal.llm_LP2_instance.LlmGoalModuleLP2Instance
+  llm_prompts:
+    environment: src/lhmp/modules/goal/prompt_templates/LP2_instance/environment_description_withrooms.txt
+    previous_interactions_with_actions: src/lhmp/modules/goal/prompt_templates/LP2_instance/previous_interactions_withactions.txt
+    instructions_with_actions: src/lhmp/modules/goal/prompt_templates/LP2_instance/instructions_withactions.txt
+    example: src/lhmp/modules/goal/prompt_templates/LP2_instance/example.txt
+    current_interaction: src/lhmp/modules/goal/prompt_templates/LP2_instance/current_interaction_remaining.txt
+  temperature: 0.0
+  width: 6
+  depth: 2 # has to be given if n_total_interactions and n_past_interactions are null
+  gpt_model: gpt-4o-mini # choose betweeen gpt-3.5-turbo-1106 and gpt-4-1106-preview
+  avg_walking_speed: 0.7 # [m/s]
+  num_instances_per_class: 3
+  include_actions: true
+
+planning_module:
+  class: lhmp.modules.planning.planning_LP2.CoarsePlacesTreePlanner
+  avg_walking_speed: 0.7 # [m/s]
+
+low_level_module:
+  class: lhmp.modules.low_level.low_level_ctmc.LowLevelCTMC
+  walking_speed: 1.0 # average human walking speed m/s
+  interaction_time: 8.0
+
+  use_diverse_sampling: false
+  diverse_sampling_factor: 0.7

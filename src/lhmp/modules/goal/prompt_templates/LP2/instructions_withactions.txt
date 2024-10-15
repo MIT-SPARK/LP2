@@ -1,0 +1,18 @@
+Predict the </width> different most likely next objects of interaction out of the above given objects.
+Output your reasoning, based on the objects in the environment and the previous interactions, why objects may be the next step in a sequence of interactions.
+Then predict </width> plausible interactions at the next timestep. All predicted objects have to be in the above environment!
+Also predict the action that the human will perform with the object.
+Output your answer in the following JSON format:
+{
+    "reasoning": '''insert reasoning here'''
+    "predictions: [
+        {"object": '''insert object here''',
+        "action": '''insert action here''',
+        "duration": '''insert duration as float value here''',
+        "probability": '''insert probability of prediction here'''},
+        ...
+    ]
+}
+The length of the List of predictions should be </width>.
+The probability should be a value from 1 to 10 where 10 means the object is the most likely next object of interaction.
+The duration should represent the duration that the human will interact with the object in seconds (you can assume an interaction in general lasts between 1.0 and 60.0 seconds).

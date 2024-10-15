@@ -1,0 +1,27 @@
+global:
+  load_checkpoints: false
+
+  time_horizon: 180.0 # [s] used for evaluation
+
+  eval_timestep: 1.0 # [s] used for evaluation
+
+  # either specify (n_past_interactions, time_after_interaction, future_trajectory_length) or
+  # (n_past_interactions, n_total_interactions)
+  # or (alpha, beta, time_horizon)
+  n_past_interactions: 2
+  n_total_interactions: null
+  time_after_interaction: 2.0 # [s]
+  future_trajectory_length: 60.0 # [s] minimum length of future trajectory to be considered
+
+  trajectory_part: "interaction"
+  alpha: null
+  beta: null
+
+evaluation:
+  N_BoN: [1, 5, 10, 20]
+  log_likelihood_lower_bound: -20
+  top_n_accuracy_N_id: 10
+  top_n_accuracy_N_semantic: 10
+
+output:
+  folder: output/

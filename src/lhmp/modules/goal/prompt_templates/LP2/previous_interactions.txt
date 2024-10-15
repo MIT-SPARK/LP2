@@ -1,0 +1,2 @@
+Here are the previous interactions that you need to consider for the prediction: 
+A human just interacted with </previous_interactions_string>.
