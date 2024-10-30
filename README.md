@@ -27,11 +27,14 @@ If you find this useful for your research, please consider citing our paper:
   ```bibtex
    @ARTICLE{Gorlo2024LP2,
     author={Gorlo, Nicolas and Schmid, Lukas and Carlone, Luca},
-    journal={IEEE Robotics and Automation Letters}, 
-    title={Long-Term Human Trajectory Prediction using 3D Dynamic Scene Graphs}, 
+    journal={IEEE Robotics and Automation Letters},
+    title={Long-Term Human Trajectory Prediction Using 3D Dynamic Scene Graphs},
     year={2024},
-    doi={10.1109/LRA.2024.3482169}}
-
+    volume={9},
+    number={12},
+    pages={10978-10985},
+    doi={10.1109/LRA.2024.3482169}
+    }
   ```
 # Video
 
