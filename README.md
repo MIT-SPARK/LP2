@@ -23,7 +23,7 @@ This repository contains the code for LP<sup>2</sup>, our approach for Long-term
 # Paper
 If you find this useful for your research, please consider citing our paper:
 
-* Nicolas Gorlo, Lukas Schmid, and Luca Carlone, "**Long-Term Human Trajectory Prediction using 3D Dynamic Scene Graphs**", in _IEEE Robotics and Automation Letters_, doi: 10.1109/LRA.2024.3482169, 2024. [ [Paper](https://ieeexplore.ieee.org/document/10720207) | [Preprint](https://arxiv.org/abs/2405.00552) | [Video](https://www.youtube.com/watch?v=mzumT3T0dYw) ]
+* Nicolas Gorlo, Lukas Schmid, and Luca Carlone, "**Long-Term Human Trajectory Prediction using 3D Dynamic Scene Graphs**", in _IEEE Robotics and Automation Letters_, vol. 9, no. 11, pp. 10978-10985, 2024. [ [Paper](https://ieeexplore.ieee.org/document/10720207) | [Preprint](https://arxiv.org/abs/2405.00552) | [Video](https://www.youtube.com/watch?v=mzumT3T0dYw) ]
   ```bibtex
    @ARTICLE{Gorlo2024LP2,
     author={Gorlo, Nicolas and Schmid, Lukas and Carlone, Luca},
